@@ -60,7 +60,6 @@
      <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
      <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
      <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
-     <Compile Include="Assets\Standard Assets\Environment\Water (Basic)\Scripts\WaterBasic.cs" />
      <Compile Include="Assets\Standard Assets\Environment\Water\Water\Scripts\Displace.cs" />
      <Compile Include="Assets\Standard Assets\Environment\Water\Water\Scripts\GerstnerDisplace.cs" />
      <Compile Include="Assets\Standard Assets\Environment\Water\Water\Scripts\MeshContainer.cs" />
@@ -69,6 +68,13 @@
      <Compile Include="Assets\Standard Assets\Environment\Water\Water\Scripts\Water.cs" />
      <Compile Include="Assets\Standard Assets\Environment\Water\Water\Scripts\WaterBase.cs" />
      <Compile Include="Assets\Standard Assets\Environment\Water\Water\Scripts\WaterTile.cs" />
+     <Compile Include="Assets\Standard Assets\FPSEffects\Scripts\FPS_Effects\FPS_BulletImpacts.cs" />
+     <Compile Include="Assets\Standard Assets\FPSEffects\Scripts\FPS_Effects\GlobalDefines.cs" />
+     <Compile Include="Assets\Standard Assets\FPSEffects\Scripts\FPS_Effects\SelfDestruct.cs" />
+     <Compile Include="Assets\Standard Assets\FPSEffects\Scripts\Game.cs" />
+     <Compile Include="Assets\Standard Assets\FPSEffects\Scripts\controller.cs" />
+     <Compile Include="Assets\Standard Assets\FPSEffects\Scripts\explode.cs" />
+     <Compile Include="Assets\Standard Assets\FPSEffects\Scripts\explosion_light.cs" />
      <Compile Include="Assets\Standard Assets\Utility\ActivateTrigger.cs" />
      <Compile Include="Assets\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
      <Compile Include="Assets\Standard Assets\Utility\AutoMoveAndRotate.cs" />
@@ -92,17 +98,13 @@
      <Compile Include="Assets\Standard Assets\Utility\TimedObjectDestructor.cs" />
      <Compile Include="Assets\Standard Assets\Utility\WaypointCircuit.cs" />
      <Compile Include="Assets\Standard Assets\Utility\WaypointProgressTracker.cs" />
-     <None Include="Assets\ghoul\shader\ghoulshader.shader" />
-     <None Include="Assets\Palm Trees\Shaders\WavingDoublePassNoCullBackface.shader" />
-     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
-     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
-     <None Include="Assets\sky5X\README.txt" />
+     <None Include="Assets\Standard Assets\ghoul\shader\ghoulshader.shader" />
+     <None Include="Assets\Standard Assets\Palm Trees\Shaders\WavingDoublePassNoCullBackface.shader" />
+     <None Include="Assets\Standard Assets\sky5X\README.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
-     <None Include="Assets\Palm Trees\Shaders\WavingDoublePassCullBackface.shader" />
+     <None Include="Assets\Standard Assets\Palm Trees\Shaders\WavingDoublePassCullBackface.shader" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
-     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
-     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

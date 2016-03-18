@@ -46,14 +46,14 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
-     <None Include="Assets\ghoul\shader\ghoulshader.shader" />
-     <None Include="Assets\Palm Trees\Shaders\WavingDoublePassNoCullBackface.shader" />
+     <None Include="Assets\Standard Assets\ghoul\shader\ghoulshader.shader" />
+     <None Include="Assets\Standard Assets\Palm Trees\Shaders\WavingDoublePassNoCullBackface.shader" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
-     <None Include="Assets\sky5X\README.txt" />
+     <None Include="Assets\Standard Assets\sky5X\README.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
-     <None Include="Assets\Palm Trees\Shaders\WavingDoublePassCullBackface.shader" />
+     <None Include="Assets\Standard Assets\Palm Trees\Shaders\WavingDoublePassCullBackface.shader" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
@@ -91,10 +91,10 @@
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{7D9D6630-E75A-B1BE-3EFA-EB7A283CBCDF}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{E6258566-8DC3-A8CB-F7E1-C1C5396FBF47}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{6E316D3F-C04C-1B77-2C04-BA7CCFE2AA58}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
-    <ProjectReference Include="Assembly-UnityScript.unityproj">
-      <Project>{A31DA7A8-41FF-3F3F-73C4-03254E4F76BE}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

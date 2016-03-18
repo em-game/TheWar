@@ -46,15 +46,14 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\DesertFortressPack\Scripts\open_door.js" />
-     <Compile Include="Assets\Palm Trees\Scripts\WavingAnimation Script.js" />
-     <None Include="Assets\ghoul\shader\ghoulshader.shader" />
-     <None Include="Assets\Palm Trees\Shaders\WavingDoublePassNoCullBackface.shader" />
+     <None Include="Assets\Standard Assets\ghoul\shader\ghoulshader.shader" />
+     <None Include="Assets\Standard Assets\Palm Trees\Shaders\WavingDoublePassNoCullBackface.shader" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
-     <None Include="Assets\sky5X\README.txt" />
+     <None Include="Assets\Standard Assets\sky5X\README.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
-     <None Include="Assets\Palm Trees\Shaders\WavingDoublePassCullBackface.shader" />
+     <None Include="Assets\Standard Assets\Palm Trees\Shaders\WavingDoublePassCullBackface.shader" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
