@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Standard Assets\Palm Trees\Scripts\WavingAnimation Script.js" />
+     <Compile Include="Assets\Standard Assets\ghoul\scripts\cameraRoot.js" />
      <None Include="Assets\Standard Assets\ghoul\shader\ghoulshader.shader" />
      <None Include="Assets\Standard Assets\Palm Trees\Shaders\WavingDoublePassNoCullBackface.shader" />
      <None Include="Assets\Standard Assets\sky5X\README.txt" />
