@@ -26,6 +26,7 @@ public class PlayerController : MonoBehaviour {
 	private AudioSource[] _audio;
 	private AudioSource _Groan;
 	private AudioSource _ouch;
+	private AudioSource _item;
 
 	// Use this for initialization
 	void Start () {
@@ -34,6 +35,7 @@ public class PlayerController : MonoBehaviour {
 		this._audio = gameObject.GetComponents<AudioSource> ();
 		this._Groan = this._audio [0];	
 		this._ouch = this._audio [1];
+		this._item = this._audio [2];
 
 	}
 
@@ -71,6 +73,13 @@ public class PlayerController : MonoBehaviour {
 			//bonus score
 			this._gameController.ScoreValue += 1000;
 			this._gameController._wonGame ();
+		}
+
+		if (other.gameObject.CompareTag ("Item")) {
+			//bonus score
+			this._gameController.ScoreValue += 20;
+			this._item.Play ();
+			Destroy (other.gameObject);
 		}
 	}
 
